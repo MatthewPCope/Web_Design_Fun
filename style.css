@@ -127,6 +127,8 @@ img {
 }
 
 .features-text {
+  font-size: 18px;
+  line-height: 1.7;
 }
 
 /* TESTIMONIAL */
@@ -159,8 +161,13 @@ img {
 h3 {
   margin-bottom: 24px;
 }
+.chair img {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
 .chair{
   box-shadow: 0px 20px 30px 0 rgba(0, 0, 0, 0.07);
+  border-radius: 12px;
 }
 .chair-details {
   list-style: none;
